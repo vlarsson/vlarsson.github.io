@@ -2,23 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Computer Vision Researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: prof_pic.png
+  #address: >
+  #  <p>555 your office number</p>
+  #  <p>123 your address street</p>
+  #  <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I am an Assistant Professor at the [Centre for Mathematical Sciences](https://www.maths.lu.se/english/) at [Lund University](https://www.lunduniversity.lu.se/) working in Computer Vision and Machine Learning. Previously I worked as a PostDoc and senior researcher at the [Computer Vision and Geometry group](https://cvg.inf.ethz.ch) lead by [Marc Pollefeys](https://people.inf.ethz.ch/pomarc/) at [ETH Zurich](https://www.ethz.ch)
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research is mainly focused on solving robust estimation problems that appear in 3D computer vision (e.g. Structure-from-Motion, SLAM, visual localization and dense estimation). Currently I am interested in exploring the best way to integrate learning with classical geometrical pipelines. In particular, how to replace hand-crafted heuristics or assumptions with more data-driven alternatives.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am looking for talented students (PhD/MSc) who are interested in doing exciting research in computer vision, geometry and machine learning.

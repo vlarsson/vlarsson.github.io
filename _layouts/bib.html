@@ -68,7 +68,11 @@
               {%- endunless -%}
             {%- endif -%}
           {%- endfor %}
+          {% if entry.note -%}
+          <div style="color: red; display: inline"><b>{{entry.note}}</b></div>
+          {%- endif %}
           </div>
+
 
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
@@ -87,6 +91,8 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
+
+ 
         
           <!-- Links/Buttons -->
           <div class="links">

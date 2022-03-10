@@ -1,72 +1,438 @@
 ---
 ---
+@string{icip = "Int.\ Conf.\ Image Processing"}
+@string{ijcv = "Int.\ Journal of Computer Vision"}
+@string{ijrr = "Int.\ Journal Robotics Research"}
+@string{icra = "International Conference on Robotics and Automation (ICRA)"}
+@string{pami = "IEEE Trans. Pattern Analysis and Machine Intelligence (PAMI)"}
+@string{tip = "IEEE Trans. on Image Processing (TIP)"}
+@string{ral = "IEEE Robotics and Automation Letters (RA-L)"}
 
-@string{aps = {American Physical Society,}}
+@string{bmvc = "British Machine Vision Conference (BMVC)"}
+@string{icpr = "International Conference on Pattern Recognition (ICPR)"}
+@string{eccv = "European Conference on Computer Vision (ECCV)"}
+@string{iccv = "International Conference on Computer Vision (ICCV)"}
+@string{iccvw = "International Conference on Computer Vision Workshops (ICCVW)"}
+@string{accv = "Asian Conference on Computer Vision (ACCV)"}
+@string{wacv = "Winter Conference on Applications of Computer Vision (WACV)"}
+@string{cvpr = "Computer Vision and Pattern Recognition (CVPR)"}
+@string{cvprw = "Computer Vision and Pattern Recognition Workshops (CVPRW)"}
+@string{emmcvpr = "Energy Minimization Methods in Computer Vision and Pattern Recognition (EMMCVPR)"}
+@string{ijcv = "International Journal of Computer Vision (IJCV)"}
+@string{icip = "International Conference on Image Processing (ICIP)"}
+@string{nips = "Neural Information Processing Systems (NIPS)"}
+@string{neurips = "Neural Information Processing Systems (NeurIPS)"}
+@string{aaai = "Conference on Artificial Intelligence (AAAI)"}
+@string{visapp = "International Conference on Computer Vision Theory and Applications (VISAPP)"}
+@string{iros = "International Conference on Intelligent Robots and Systems (IROS)"}
+@string{jmiv = "Journal of Mathematical Imaging and Vision (JMIV)"}
+@string{cviu = "Computer Vision and Image Understanding (CVIU)"}
+@string{threedv = "International Conference on 3D Vision (3DV)"}
+@string{scia = "Scandinavian Conference on Image Analysis (SCIA)"}
+@string{icml = "International Conference on Machine Learning (ICML)"}
+@string{iclr = "International Conference on Learning Representations (ICLR)"}
+@string{ivc = "Image and Vision Computing (IVC)"}
+@string{ismar = "International Symposium on Mixed and Augmented Reality (ISMAR)"}
+@string{rss = "Robotics: Science and Systems (RSS)"}
+@string{ijrr = "International Journal of Robotics Research (IJRR)"}
+@string{omnivis = "Workshop on Omni-directional Vision, Camera Networks and Non-classical Cameras (OMNIVIS)"}
+@string{dicta = "Digital Image Computing: Techniques and Applications (DICTA)"}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+-- JMIV
+
+@article{brynte2022tightness,
+  title={On the Tightness of Semidefinite Relaxations for Rotation Estimation},
+  author={Brynte, Lucas and Larsson, Viktor and Iglesias, Jos{\'e} Pedro and Olsson, Carl and Kahl, Fredrik},
+  journal=jmiv,
+  year={2022}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+-- ICCV 2021
+
+@inproceedings{lindenberger2021pixel,
+  title={Pixel-Perfect Structure-from-Motion with Featuremetric Refinement},
+  author={Lindenberger, Philipp and Sarlin, Paul-Edouard and Larsson, Viktor and Pollefeys, Marc},
+  booktitle=iccv,
+  year={2021},
+  website={https://psarlin.com/pixsfm/},
+  pdf={https://arxiv.org/abs/2108.08291},
+  code={https://github.com/cvg/pixel-perfect-sfm},
+  note={(Best Student Paper Award)}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{larsson2021orthographic,
+  title={Orthographic-Perspective Epipolar Geometry},
+  author={Larsson, Viktor and Pollefeys, Marc and Oskarsson, Magnus},
+  booktitle=iccv,
+  year={2021},
+  pdf={https://openaccess.thecvf.com/content/ICCV2021/papers/Larsson_Orthographic-Perspective_Epipolar_Geometry_ICCV_2021_paper.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{liu2021mba,
+  title={MBA-VO: Motion Blur Aware Visual Odometry},
+  author={Liu, Peidong and Zuo, Xingxing and Larsson, Viktor and Pollefeys, Marc},
+  booktitle=iccv,
+  year={2021},
+  pdf={https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_MBA-VO_Motion_Blur_Aware_Visual_Odometry_ICCV_2021_paper.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+-- CVPR 2021
+
+@inproceedings{sarlin2021back,
+  title={Back to the feature: Learning robust camera localization from pixels to pose},
+  author={Sarlin, Paul-Edouard and Unagar, Ajaykumar and Larsson, Mans and Germain, Hugo and Toft, Carl and Larsson, Viktor and Pollefeys, Marc and Lepetit, Vincent and Hammarstrand, Lars and Kahl, Fredrik and others},
+  booktitle=cvpr,
+  year={2021},
+  pdf={https://arxiv.org/pdf/2103.09213},
+  code={https://github.com/cvg/pixloc},
+  website={https://psarlin.com/pixloc/}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{pautrat2021sold2,
+  title={SOLD2: Self-supervised occlusion-aware line description and detection},
+  author={Pautrat, R{\'e}mi and Lin, Juan-Ting and Larsson, Viktor and Oswald, Martin R and Pollefeys, Marc},
+  booktitle=cvpr,
+  year={2021},
+  pdf={https://arxiv.org/pdf/2104.03362},
+  code={https://github.com/cvg/SOLD2}
+}
+
+@inproceedings{geppert2021privacy,
+  title={Privacy Preserving Localization and Mapping from Uncalibrated Cameras},
+  author={Geppert, Marcel and Larsson, Viktor and Speciale, Pablo and Schonberger, Johannes L and Pollefeys, Marc},
+  booktitle=cvpr,
+  year={2021},
+  website={https://cvg.ethz.ch/research/privacy-preserving-sfm/},
+  pdf={https://openaccess.thecvf.com/content/CVPR2021/papers/Geppert_Privacy_Preserving_Localization_and_Mapping_From_Uncalibrated_Cameras_CVPR_2021_paper.pdf}
+}
+
+@inproceedings{olsson2021quasiconvex,
+  title={A Quasiconvex Formulation for Radial Cameras},
+  author={Olsson, Carl and Larsson, Viktor and Kahl, Fredrik},
+  booktitle=cvpr,
+  pages={14576--14585},
+  year={2021},
+  pdf={https://openaccess.thecvf.com/content/CVPR2021/papers/Olsson_A_Quasiconvex_Formulation_for_Radial_Cameras_CVPR_2021_paper.pdf}
+}
+
+-- 3DV 2021
+@inproceedings{barath2021image,
+  title={Image Stitching with Locally Shared Rotation Axis},
+  author={Barath, Daniel and Ding, Yaqing and Kukelova, Zuzana and Larsson, Viktor},
+  booktitle=threedv,
+  year={2021}
+}
+
+
+-- ECCV 2020
+@inproceedings{larsson2020calibration,
+  title={Calibration-free Structure-from-Motion with Calibrated Radial Trifocal Tensors},
+  author={Larsson, Viktor and Zobernig, Nicolas and Taskin, Kasim and Pollefeys, Marc},
+  booktitle=eccv,
+  year={2020},
+  selected={true},
+  pdf={https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500375.pdf},
+  code={https://github.com/vlarsson/radialsfm}
+}
+
+@inproceedings{cavalli2020handcrafted,
+  title={Handcrafted Outlier Detection Revisited},
+  author={Cavalli, Luca and Larsson, Viktor and Oswald, Martin Ralf and Sattler, Torsten and Pollefeys, Marc},
+  booktitle=eccv,
+  year={2020},
+  pdf={https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640766.pdf},
+  code={https://github.com/cavalli1234/AdaLAM}
+}
+
+@inproceedings{geppert2020privacy,
+  title={Privacy Preserving Structure-from-Motion},
+  author={Geppert, Marcel and Larsson, Viktor and Speciale, Pablo and Sch{\"o}nberger, Johannes L and Pollefeys, Marc},
+  booktitle=eccv,
+  year={2020},
+  pdf={https://www.microsoft.com/en-us/research/uploads/prod/2020/08/Geppert2020ECCV-1.pdf},
+  code={https://github.com/colmap/privacy_preserving_sfm},
+  website={https://cvg.ethz.ch/research/privacy-preserving-sfm/}
+}
+
+@inproceedings{lin2020infrastructure,
+  title={Infrastructure-based multi-camera calibration using radial projections},
+  author={Lin, Yukai and Larsson, Viktor and Geppert, Marcel and Kukelova, Zuzana and Pollefeys, Marc and Sattler, Torsten},
+  booktitle=eccv,
+  year={2020},
+  pdf={https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610324.pdf},
+  code={https://github.com/youkely/InfrasCal}
+}
+
+@inproceedings{pautrat2020online,
+  title={Online invariance selection for local feature descriptors},
+  author={Pautrat, R{\'e}mi and Larsson, Viktor and Oswald, Martin R and Pollefeys, Marc},
+  booktitle=eccv,
+  year={2020},
+  pdf={https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470698.pdf},
+  code={https://github.com/rpautrat/LISRD}
+}
+
+-- CVPR 2020
+
+@inproceedings{liu2020deep,
+  title={Deep Shutter Unrolling Network},
+  author={Liu, Peidong and Cui, Zhaopeng and Larsson, Viktor and Pollefeys, Marc},
+  booktitle=cvpr,
+  year={2020},
+  pdf={https://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Deep_Shutter_Unrolling_Network_CVPR_2020_paper.pdf},
+  code={https://github.com/ethliup/DeepUnrollNet}
+}
+
+@inproceedings{albl2020two,
+  title={From two rolling shutters to one global shutter},
+  author={Albl, Cenek and Kukelova, Zuzana and Larsson, Viktor and Polic, Michal and Pajdla, Tomas and Schindler, Konrad},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2020},
+  pdf={https://openaccess.thecvf.com/content_CVPR_2020/papers/Albl_From_Two_Rolling_Shutters_to_One_Global_Shutter_CVPR_2020_paper.pdf},
+  code={https://github.com/CenekAlbl/rs2cam}
+}
+
+@inproceedings{schops2020having,
+  title={Why having 10,000 parameters in your camera model is better than twelve},
+  author={Schops, Thomas and Larsson, Viktor and Pollefeys, Marc and Sattler, Torsten},
+  booktitle=cvpr,
+  year={2020},
+  pdf={https://openaccess.thecvf.com/content_CVPR_2020/papers/Schops_Why_Having_10000_Parameters_in_Your_Camera_Model_Is_Better_CVPR_2020_paper.pdf},
+  code={https://github.com/puzzlepaint/camera_calibration}
+}
+
+-- TPAMI 2020
+
+@article{pritts2020minimal,
+  title={Minimal solvers for rectifying from radially-distorted conjugate translations},
+  author={Pritts, James and Kukelova, Zuzana and Larsson, Viktor and Lochman, Yaroslava and Chum, Ond{\v{r}}ej},
+  journal=pami,
+  year={2020},
+  pdf={https://cmp.felk.cvut.cz/\~{}chum/papers/Pritts-PAMI20.pdf}
+}
+
+-- IJCV 2020
+
+@article{pritts2020minimal,
+  title={Minimal solvers for rectifying from radially-distorted scales and change of scales},
+  author={Pritts, James and Kukelova, Zuzana and Larsson, Viktor and Lochman, Yaroslava and Chum, Ond{\v{r}}ej},
+  journal=ijcv,
+  year={2020},
+  pdf={https://cmp.felk.cvut.cz/\~{}chum/papers/Pritts-IJCV20.pdf}
+}
+
+-- ICCV 2019
+
+@inproceedings{larsson2019revisiting,
+  title={Revisiting radial distortion absolute pose},
+  author={Larsson, Viktor and Sattler, Torsten and Kukelova, Zuzana and Pollefeys, Marc},
+  booktitle=iccv,
+  year={2019},
+  pdf={https://openaccess.thecvf.com/content_ICCV_2019/papers/Larsson_Revisiting_Radial_Distortion_Absolute_Pose_ICCV_2019_paper.pdf},
+  code={https://github.com/vlarsson/radialpose}
+}
+
+@inproceedings{cui2019polarimetric,
+  title={Polarimetric Relative Pose Estimation},
+  author={Cui, Zhaopeng and Larsson, Viktor and Pollefeys, Marc},
+  booktitle=iccv,
+  year={2019},
+  pdf={https://openaccess.thecvf.com/content_ICCV_2019/papers/Cui_Polarimetric_Relative_Pose_Estimation_ICCV_2019_paper.pdf}
+}
+
+-- CVPR 2019
+
+@inproceedings{kukelova2019radial,
+  title={Radial distortion triangulation},
+  author={Kukelova, Zuzana and Larsson, Viktor},
+  booktitle=cvpr,
+  year={2019},
+  pdf={https://openaccess.thecvf.com/content_CVPR_2019/papers/Kukelova_Radial_Distortion_Triangulation_CVPR_2019_paper.pdf}
+}
+
+-- ICASSP 2019
+
+@inproceedings{larsson2019optimal,
+  title={Optimal trilateration is an eigenvalue problem},
+  author={Larsson, Martin and Larsson, Viktor and Astrom, Kalle and Oskarsson, Magnus},
+  booktitle=icassp,
+  year={2019}
+}
+
+@inproceedings{batstone2019robust,
+  title={Robust self-calibration of constant offset time-difference-of-arrival},
+  author={Batstone, Kenneth and Flood, Gabrielle and Beleyur, Thejasvi and Larsson, Viktor and Goerlitz, Holger R and Oskarsson, Magnus and {\AA}str{\"o}m, Kalle},
+  booktitle=icassp,
+  year={2019}
+}
+
+-- ACCV 2018
+
+@inproceedings{pritts2018rectification,
+  title={Rectification from radially-distorted scales},
+  author={Pritts, James and Kukelova, Zuzana and Larsson, Viktor and Chum, Ond{\v{r}}ej},
+  booktitle=accv,
+  year={2018},
+  pdf={https://arxiv.org/pdf/1807.06110},
+  code={https://github.com/prittjam/repeats},
+  note={(Saburo Tsuji Best Paper Award)}
+}
+
+-- CVPR 2018
+
+@inproceedings{larsson2018camera,
+  title={Camera pose estimation with unknown principal point},
+  author={Larsson, Viktor and Kukelova, Zuzana and Zheng, Yinqiang},
+  booktitle=cvpr,
+  year={2018},
+  pdf={https://openaccess.thecvf.com/content_cvpr_2018/papers/Larsson_Camera_Pose_Estimation_CVPR_2018_paper.pdf}
+}
+
+@inproceedings{larsson2018beyond,
+  title={Beyond grobner bases: Basis selection for minimal solvers},
+  author={Larsson, Viktor and Oskarsson, Magnus and Astrom, Kalle and Wallis, Alge and Kukelova, Zuzana and Pajdla, Tomas},
+  booktitle=cvpr,
+  year={2018},
+  pdf={https://openaccess.thecvf.com/content_cvpr_2018/papers/Larsson_Beyond_Grobner_Bases_CVPR_2018_paper.pdf}
+}
+
+@inproceedings{pritts2018radially,
+  title={Radially-distorted conjugate translations},
+  author={Pritts, James and Kukelova, Zuzana and Larsson, Viktor and Chum, Ond{\v{r}}ej},
+  booktitle=cvpr,
+  year={2018},
+  pdf={https://openaccess.thecvf.com/content_cvpr_2018/papers/Pritts_Radially-Distorted_Conjugate_Translations_CVPR_2018_paper.pdf},
+  code={https://github.com/prittjam/repeats}
+}
+
+-- ICCV 2017
+
+@inproceedings{larsson2017polynomial,
+  title={Polynomial solvers for saturated ideals},
+  author={Larsson, Viktor and Astrom, Kalle and Oskarsson, Magnus},
+  booktitle=iccv,
+  year={2017},
+  pdf={https://openaccess.thecvf.com/content_ICCV_2017/papers/Larsson_Polynomial_Solvers_for_ICCV_2017_paper.pdf}
+}
+
+@inproceedings{larsson2017making,
+  title={Making minimal solvers for absolute pose estimation compact and robust},
+  author={Larsson, Viktor and Kukelova, Zuzana and Zheng, Yinqiang},
+  booktitle=iccv,
+  year={2017},
+  pdf={https://openaccess.thecvf.com/content_ICCV_2017/papers/Larsson_Making_Minimal_Solvers_ICCV_2017_paper.pdf}
+}
+
+@inproceedings{olsson2017non,
+  title={Non-convex rank/sparsity regularization and local minima},
+  author={Olsson, Carl and Carlsson, Marcus and Andersson, Fredrik and Larsson, Viktor},
+  booktitle=iccv,
+  year={2017},
+  pdf={https://openaccess.thecvf.com/content_ICCV_2017/papers/Olsson_Non-Convex_RankSparsity_Regularization_ICCV_2017_paper.pdf}
+}
+
+-- CVPR 2017
+
+@inproceedings{larsson2017compact,
+  title={Compact matrix factorization with dependent subspaces},
+  author={Larsson, Viktor and Olsson, Carl},
+  booktitle=cvpr,
+  year={2017},
+  pdf={https://openaccess.thecvf.com/content_cvpr_2017/papers/Larsson_Compact_Matrix_Factorization_CVPR_2017_paper.pdf}
+}
+
+@inproceedings{larsson2017efficient,
+  title={Efficient solvers for minimal problems by syzygy-based reduction},
+  author={Larsson, Viktor and Astrom, Kalle and Oskarsson, Magnus},
+  booktitle=cvpr,
+  year={2017},
+  pdf={https://openaccess.thecvf.com/content_cvpr_2017/papers/Larsson_Efficient_Solvers_for_CVPR_2017_paper.pdf}
+}
+
+-- IJCV 2016
+
+@article{larsson2016convex,
+  title={Convex low rank approximation},
+  author={Larsson, Viktor and Olsson, Carl},
+  journal=ijcv,
+  year={2016},
+  pdf={http://www.maths.lth.se/vision/publdb/reports/pdf/larsson-olsson-ijcv-16.pdf},
+  code={https://www.maths.lth.se/matematiklth/personal/calle/convexlowrank/example_code_v1_1.zip}
+}
+
+-- ECCV 2016
+
+@inproceedings{larsson2016uncovering,
+  title={Uncovering symmetries in polynomial systems},
+  author={Larsson, Viktor and {\AA}str{\"o}m, Kalle},
+  booktitle=eccv,
+  year={2016},
+ }
+
+-- BMVC 2016
+ @inproceedings{larsson2016outlier,
+  title={Outlier Rejection for Absolute Pose Estimation with Known Orientation},
+  author={Larsson, Viktor and Fredriksson, Johan and Toft, Carl and Kahl, Fredrik},
+  booktitle=bmvc,
+  pdf={http://www.bmva.org/bmvc/2016/papers/paper045/paper045.pdf},
+  year={2016}
+}
+
+-- IVC 2016
+
+@article{fredriksson2016efficient,
+  title={Efficient algorithms for robust estimation of relative translation},
+  author={Fredriksson, Johan and Larsson, Viktor and Olsson, Carl and Enqvist, Olof and Kahl, Fredrik},
+  journal=ivc,
+  year={2016},
+  pdf={http://www.maths.lth.se/vision/publdb/reports/pdf/fredriksson-larsson-etal-ivc-16.pdf}
+}
+
+-- CVPR 2016
+
+@inproceedings{fredriksson2016optimal,
+  title={Optimal relative pose with unknown correspondences},
+  author={Fredriksson, Johan and Larsson, Viktor and Olsson, Carl and Kahl, Fredrik},
+  booktitle=cvpr,
+  year={2016},
+  pdf={https://openaccess.thecvf.com/content_cvpr_2016/papers/Fredriksson_Optimal_Relative_Pose_CVPR_2016_paper.pdf}
+}
+
+-- ICPR 2016
+
+@inproceedings{alven2016shape,
+  title={Shape-aware multi-atlas segmentation},
+  author={Alv{\'e}n, Jennifer and Kahl, Fredrik and Landgren, Matilda and Larsson, Viktor and Ul{\'e}n, Johannes},
+  booktitle=icpr,
+  year={2016},
+  note={(IBM Best Student Paper Award)}
+}
+
+-- EMMCVPR 2015
+
+@inproceedings{larsson2015convex,
+  title={Convex envelopes for low rank approximation},
+  author={Larsson, Viktor and Olsson, Carl},
+  booktitle=emmcvpr,
+  year={2015}
+}
+
+-- CVPR 2015
+
+@inproceedings{fredriksson2015practical,
+  title={Practical robust two-view translation estimation},
+  author={Fredriksson, Johan and Larsson, Viktor and Olsson, Carl},
+  booktitle=cvpr,
+  year={2015},
+  pdf={https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Fredriksson_Practical_Robust_Two-View_2015_CVPR_paper.pdf}
+}
+
+-- ECCV 2014
+
+@inproceedings{larsson2014rank,
+  title={Rank minimization with structured data patterns},
+  author={Larsson, Viktor and Olsson, Carl and Bylow, Erik and Kahl, Fredrik},
+  booktitle=eccv,
+  year={2014},
+  pdf={http://www.maths.lth.se/vision/publdb/reports/pdf/larsson-olsson-etal-eccv-14.pdf}
 }
