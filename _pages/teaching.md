@@ -2,12 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: 
+description:
 nav: true
 ---
 
 ### Master Thesis proposals
-If you are interested in a Master Thesis related to computer vision, geometry and machine learning, please contact me and attach CV/grades.
+If you are interested in a Master Thesis related to computer vision, geometry or machine learning, please send me an email and attach CV/grades.
 
 
 ### Lectures
