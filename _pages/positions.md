@@ -16,3 +16,5 @@ The project is about developing 3D mapping methods which are used to enable re-l
 Note that the subject area for the PhD is mathematics and applicants will need to take math courses during their PhD studies. Please contact me for more details.
 
 Apply [here](https://lu.varbi.com/en/what:job/jobID:602187/). (Deadline 23 April 2023)
+
+![Structure-from-Motion example](/assets/img/sfm_example.png){:width="100%"}
