@@ -11,7 +11,7 @@ I am looking for talented students (PhD/MSc) who are interested in doing excitin
 
 
 ## PhD position (March 2024)
-The project is about developing 3D mapping methods which are used to enable re-localization and navigation in large-scale environments. In particular, we will focus on sparse reconstruction methods which takes as input is a set of images and produces a map consisting of a 3D point cloud.  In the scope of the project, we will extend these methods to also integrate higher-level scene primitives into the reconstruction. The target applications are in Structure-from-Motion (SfM), Simultaneous Localization and Mapping (SLAM) and visual localization. The position is funded by the [Swedish Research Council](https://www.vr.se/english.html) and is part of the "Beyond 3D points in Sparse Visual Mapping" project.
+The project is about developing 3D mapping methods which are used to enable re-localization and navigation in large-scale environments. In particular, we will focus on sparse reconstruction methods which takes as input a set of images and produces a map consisting of a 3D point cloud.  In the scope of the project, we will extend these methods to also integrate higher-level scene primitives into the reconstruction. The target applications are in Structure-from-Motion (SfM), Simultaneous Localization and Mapping (SLAM) and visual localization. The position is funded by the [Swedish Research Council](https://www.vr.se/english.html) and is part of the "Beyond 3D points in Sparse Visual Mapping" project.
 
 
 
