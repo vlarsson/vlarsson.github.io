@@ -11,8 +11,14 @@ nav_order: 6
 If you are interested in a Master Thesis related to computer vision, geometry or machine learning, please send me an email and attach CV/grades.
 
 
-### Lectures
-2023 - (Lund University) [Computer Vision](https://kurser.lth.se/lot/course/FMAN95)
+### Courses/Lectures
+2024 - (Lund University) [Advanced Topics in Learning-based Computer Vision (FMA325F)](https://fukurser.lth.se/fud/details/?code=FMA325F&simple=1)
+
+2024 - (Lund University) [Computer Vision (FMAN95)](https://kurser.lth.se/lot/course/FMAN95)
+
+2023 - (Lund University) [Advanced Topics in Computer Vision (FMA315F)](https://fukurser.lth.se/fud/details/?code=FMA315F&simple=1)
+
+2023 - (Lund University) [Computer Vision (FMAN95)](https://kurser.lth.se/lot/course/FMAN95)
 
 2021 - (ETH Zurich) [3D Vision](https://www.cvg.ethz.ch/teaching/3dvision/2021/index.php)
 
@@ -22,6 +28,9 @@ If you are interested in a Master Thesis related to computer vision, geometry or
 
 ### Previous MSc/BSc/Sem Thesis
 **Master Thesis**
+- Oscar Broddegård, Caesar Ringström 2024 *Calibration of extrinsic camera parameters by identifying lines in a monocular view of a soccer field*
+- Gustav Hanning 2024 *Image Retrieval Re-ranking using Graph Neural Networks*
+- Roos Bottema 2024 *Using Neural Radiance Fields and Gaussian Splatting for 3D reconstruction of aircraft inspections*
 - Max Bergfelt 2023 *Individual Layer Scaling and Redundancy Reduction of Singleshot Multiplane Images for View Synthesis*
 - Theodora Gaiceanu, Felix Slothower 2023 *Object Detection and Segmentation Using Fisheye Images*
 - Marcus Ascard, Farjam Movahedi 2023 *Assessing the Efficiency of COLMAP, DROID-SLAM and NeRF-SLAM in 3D Road Scene Reconstruction*
