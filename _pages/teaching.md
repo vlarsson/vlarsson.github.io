@@ -12,6 +12,8 @@ If you are interested in a Master Thesis related to computer vision, geometry or
 
 
 ### Courses/Lectures
+2025 - (Lund University) [Computer Vision (FMAN95)](https://kurser.lth.se/lot/course/FMAN95)
+
 2024 - (Lund University) [Advanced Topics in Learning-based Computer Vision (FMA325F)](https://fukurser.lth.se/fud/details/?code=FMA325F&simple=1)
 
 2024 - (Lund University) [Computer Vision (FMAN95)](https://kurser.lth.se/lot/course/FMAN95)
@@ -28,6 +30,7 @@ If you are interested in a Master Thesis related to computer vision, geometry or
 
 ### Previous MSc/BSc/Sem Thesis
 **Master Thesis**
+- Axel Ahlin 2025, *Estimating Infrared-to-Visible Light Ratio in Images Using Gradient-Boosted Decision Trees and Multilayer Perceptrons*
 - Oscar Broddegård, Caesar Ringström 2024 *Calibration of extrinsic camera parameters by identifying lines in a monocular view of a soccer field*
 - Gustav Hanning 2024 *Image Retrieval Re-ranking using Graph Neural Networks*
 - Roos Bottema 2024 *Using Neural Radiance Fields and Gaussian Splatting for 3D reconstruction of aircraft inspections*
