@@ -10,13 +10,11 @@ nav: true
 I am looking for talented students (PhD/MSc) who are interested in doing exciting research in computer vision, geometry and machine learning.
 
 
-## PhD position (March 2024)
-The project is about developing 3D mapping methods which are used to enable re-localization and navigation in large-scale environments. In particular, we will focus on sparse reconstruction methods which takes as input a set of images and produces a map consisting of a 3D point cloud.  In the scope of the project, we will extend these methods to also integrate higher-level scene primitives into the reconstruction. The target applications are in Structure-from-Motion (SfM), Simultaneous Localization and Mapping (SLAM) and visual localization. The position is funded by the [Swedish Research Council](https://www.vr.se/english.html) and is part of the "Beyond 3D points in Sparse Visual Mapping" project.
+## PhD position (for fall semester 2025)
+The research project focuses on 3D mapping methods that support re-localization and navigation in large-scale environments. Emphasis is placed on techniques from geometric computer vision, including structure-from-motion, visual localization, and SLAM, to build accurate and reliable maps from visual data. The aim is to develop systems that are not only robust and scalable but also well-suited for downstream tasks such as motion planning and scene understanding. The position is funded by the [Swedish Research Council](https://www.vr.se/english.html) and is part of the "Beyond 3D points in Sparse Visual Mapping" project.
 
+Please contact me for more details.
 
-
-Note that the subject area for the PhD is mathematics and applicants will need to take math courses during their PhD studies. Please contact me for more details.
-
-Apply [here](https://lu.varbi.com/en/what:job/jobID:703076/). (Deadline 25 March 2024)
+Apply [here](https://lu.varbi.com/en/what:job/jobID:824305/). (Deadline 17th June 2025)
 
 ![Project teaser image](/assets/img/vr24_teaser.png){:width="100%"}
