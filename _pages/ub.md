@@ -16,7 +16,7 @@ model-viewer {
 }
 </style>
 
-
+<h1>Example of monocular depth estimation</h1>
 <model-viewer alt="" src="../assets/mesh/ub.glb" auto-rotate auto-rotate-delay="0" shadow-intensity="1" camera-controls touch-action="pan-y" camera-orbit="15deg 75deg 0m"></model-viewer>
 
 <div style="display: flex; gap: 10px;">
