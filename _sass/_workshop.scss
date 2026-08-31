@@ -1,0 +1,290 @@
+/*******************************************************************************
+ * Standalone workshop page
+ ******************************************************************************/
+
+.workshop26 {
+  --workshop-accent: #256f78;
+  --workshop-accent-strong: #174e56;
+  --workshop-accent-soft: #e9f4f3;
+  --workshop-warm: #c46b3c;
+  margin: 0 auto 4rem;
+
+  .workshop-hero {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 3.5rem;
+    padding: 3.5rem 3.25rem 3rem;
+    border: 1px solid var(--global-divider-color);
+    border-top: 5px solid var(--workshop-accent);
+    border-radius: 0.35rem;
+    background:
+      radial-gradient(circle at 92% 8%, rgba(37, 111, 120, 0.16), transparent 35%),
+      var(--global-card-bg-color);
+  }
+
+  .workshop-kicker {
+    margin-bottom: 0.75rem;
+    color: var(--workshop-accent);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    max-width: 680px;
+    margin-bottom: 1.25rem;
+    font-family: "Roboto Slab", serif;
+    font-size: clamp(2.15rem, 6vw, 3.7rem);
+    font-weight: 400;
+    letter-spacing: -0.035em;
+    line-height: 1.08;
+  }
+
+  .workshop-intro {
+    max-width: 660px;
+    margin-bottom: 1.75rem;
+    font-size: 1.13rem;
+    line-height: 1.65;
+  }
+
+  .workshop-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    margin: 0;
+    padding: 1.15rem 0 0;
+    border-top: 1px solid var(--global-divider-color);
+    list-style: none;
+
+    li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      min-width: 0;
+      font-size: 0.95rem;
+    }
+
+    i {
+      width: 1rem;
+      color: var(--workshop-accent);
+      text-align: center;
+    }
+  }
+
+  .workshop-section {
+    margin-bottom: 3.5rem;
+  }
+
+  .workshop-section-title {
+    margin-bottom: 1.5rem;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.85rem;
+    font-weight: 400;
+  }
+
+  .workshop-schedule {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--global-divider-color);
+    list-style: none;
+  }
+
+  .schedule-status {
+    display: inline-block;
+    margin: -0.65rem 0 1.25rem;
+    padding: 0.3rem 0.65rem;
+    border-radius: 2rem;
+    background: var(--workshop-accent-soft);
+    color: var(--workshop-accent-strong);
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  .schedule-item {
+    display: grid;
+    grid-template-columns: 8.2rem 1fr auto;
+    align-items: center;
+    gap: 1.25rem;
+    min-height: 4.5rem;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .schedule-time {
+    color: var(--workshop-accent-strong);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .schedule-session {
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+
+  .schedule-note {
+    color: var(--global-text-color-light);
+    font-size: 0.82rem;
+  }
+
+  .schedule-item.is-break,
+  .schedule-item.is-discussion {
+    .schedule-session {
+      color: var(--global-text-color-light);
+      font-weight: 400;
+    }
+  }
+
+  .schedule-item.is-break {
+    border-left: 3px solid var(--workshop-warm);
+    padding-left: 1rem;
+  }
+
+  .speaker-list {
+    display: grid;
+    gap: 1.35rem;
+  }
+
+  .speaker-card {
+    display: grid;
+    grid-template-columns: 9.5rem minmax(0, 1fr);
+    gap: 1.5rem;
+    min-width: 0;
+    padding: 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.35rem;
+    background: var(--global-card-bg-color);
+
+    > div {
+      min-width: 0;
+    }
+  }
+
+  .speaker-portrait,
+  .speaker-placeholder {
+    width: 9.5rem;
+    height: 9.5rem;
+    max-width: 100%;
+    border-radius: 0.25rem;
+    object-fit: cover;
+  }
+
+  .speaker-placeholder {
+    display: grid;
+    place-items: center;
+    background: var(--workshop-accent-soft);
+    color: var(--workshop-accent-strong);
+    font-family: "Roboto Slab", serif;
+    font-size: 2.2rem;
+  }
+
+  .speaker-name {
+    margin: 0 0 0.2rem;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.45rem;
+    font-weight: 400;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--workshop-accent);
+      }
+    }
+  }
+
+  .speaker-affiliation {
+    margin-bottom: 1rem;
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    overflow-wrap: break-word;
+  }
+
+  .talk-title {
+    margin: 0 0 0.65rem;
+    color: var(--workshop-accent-strong);
+    font-size: 1.07rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .talk-abstract,
+  .talk-tba {
+    margin-bottom: 0;
+    line-height: 1.65;
+  }
+
+  .talk-tba {
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+}
+
+html[data-theme="dark"] .workshop26 {
+  --workshop-accent: #65c5cf;
+  --workshop-accent-strong: #91d9df;
+  --workshop-accent-soft: #233f43;
+}
+
+@media (max-width: 575px) {
+  .workshop26 {
+    .workshop-hero {
+      margin-right: -0.5rem;
+      margin-left: -0.5rem;
+      padding: 2.5rem 1.25rem 2rem;
+    }
+
+    .schedule-item {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+      padding: 0.85rem 0;
+    }
+
+    .schedule-note {
+      margin-top: 0.15rem;
+    }
+
+    .speaker-card {
+      grid-template-columns: 5.5rem minmax(0, 1fr);
+      gap: 1rem;
+      padding: 1rem;
+
+      > a {
+        grid-row: 1 / span 2;
+      }
+
+      > div {
+        display: contents;
+      }
+    }
+
+    .speaker-portrait,
+    .speaker-placeholder {
+      width: 5.5rem;
+      height: 5.5rem;
+    }
+
+    .speaker-placeholder {
+      font-size: 1.45rem;
+    }
+
+    .speaker-name {
+      grid-column: 2;
+      align-self: end;
+      font-size: 1.25rem;
+    }
+
+    .speaker-affiliation {
+      grid-column: 2;
+      align-self: start;
+      margin-bottom: 0;
+    }
+
+    .talk-title,
+    .talk-abstract,
+    .talk-tba {
+      grid-column: 1 / -1;
+    }
+  }
+}
