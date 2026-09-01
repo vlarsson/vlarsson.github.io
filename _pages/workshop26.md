@@ -20,13 +20,13 @@ sitemap: false
     <ul class="workshop-facts" aria-label="Workshop details">
       <li><i class="fa-solid fa-calendar" aria-hidden="true"></i> Monday, September 7, 2026</li>
       <li><i class="fa-solid fa-clock" aria-hidden="true"></i> 15:00–17:15</li>
-      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> MH:Riesz, first floor, Mathematics Building, Lund University</li>
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> MH:Riesz, first floor, Centre for Mathematical Sciences, Lund University</li>
     </ul>
   </header>
 
   <section class="workshop-section" aria-labelledby="schedule-heading">
     <h2 class="workshop-section-title" id="schedule-heading">Schedule</h2>
-    <p class="schedule-status">Preliminary schedule — subject to change</p>
+    <p class="schedule-status">Preliminary schedule (subject to change)</p>
     <ol class="workshop-schedule">
       <li class="schedule-item is-break">
         <time class="schedule-time" datetime="2026-09-07T15:00">15:00–15:15</time>
@@ -56,7 +56,7 @@ sitemap: false
       <li class="schedule-item">
         <time class="schedule-time" datetime="2026-09-07T17:00">17:00–17:15</time>
         <span class="schedule-session">Gustav Hanning</span>
-        <span class="schedule-note">15-minute talk</span>
+        <span class="schedule-note">Talk and questions</span>
       </li>
     </ol>
   </section>
@@ -97,7 +97,7 @@ sitemap: false
           <h3 class="speaker-name"><a href="https://www.davnords.com/">David Nordström</a></h3>
           <p class="speaker-affiliation">Chalmers University of Technology</p>
           <h4 class="talk-title">Learning to Understand 3D</h4>
-          <p class="talk-tba">Talk details forthcoming.</p>
+          <p class="talk-abstract">While the NLP community has converged on a single objective for language understanding: next token prediction, no such convegence has been achieved in vision, even less so in 3D vision. To understand 3D, there are many competing approaches at the moment: (i) build a classic optimization pipeline on-top of possibly learned priors (e.g. colmap), (ii) directly infer 3D by training on loads of labeled data (e.g. VGGT) and (iii) train on single images in SSL and gain 3D understanding as a by-product. In this talk I will talk about some ongoing/past work in each of the categories above. In particular, I will focus on the third category: SSL for 3D, as I believe SSL is our only promise for a scalable and general approach. I will start by talking about SfM pipelines where our matchers are used, then talk about feedforward reconstruction, which I show also understands image matching, and finally our work on SSL for 3D.</p>
         </div>
       </article>
 

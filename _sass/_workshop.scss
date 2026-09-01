@@ -3,11 +3,31 @@
  ******************************************************************************/
 
 .workshop26 {
-  --workshop-accent: #256f78;
-  --workshop-accent-strong: #174e56;
-  --workshop-accent-soft: #e9f4f3;
+  --workshop-accent: #65c5cf;
+  --workshop-accent-strong: #91d9df;
+  --workshop-accent-soft: #233f43;
   --workshop-warm: #c46b3c;
+  --global-text-color: #edf6f6;
+  --global-text-color-light: #b7c9ca;
+  --global-divider-color: rgba(145, 217, 223, 0.2);
+  --global-card-bg-color: rgba(8, 16, 19, 0.84);
+  position: relative;
+  isolation: isolate;
   margin: 0 auto 4rem;
+
+  &::before {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    inset: 0;
+    background-color: #080d10;
+    background-image:
+      linear-gradient(rgba(4, 10, 12, 0.12), rgba(4, 10, 12, 0.4)),
+      url("../img/workshop26/workshop_background.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+  }
 
   .workshop-hero {
     position: relative;
@@ -20,6 +40,9 @@
     background:
       radial-gradient(circle at 92% 8%, rgba(37, 111, 120, 0.16), transparent 35%),
       var(--global-card-bg-color);
+    box-shadow: 0 1.25rem 3.5rem rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
   }
 
   .workshop-kicker {
@@ -74,6 +97,13 @@
 
   .workshop-section {
     margin-bottom: 3.5rem;
+    padding: 2rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.35rem;
+    background: rgba(8, 16, 19, 0.78);
+    box-shadow: 0 1.25rem 3.5rem rgba(0, 0, 0, 0.24);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
   }
 
   .workshop-section-title {
@@ -155,6 +185,7 @@
     border: 1px solid var(--global-divider-color);
     border-radius: 0.35rem;
     background: var(--global-card-bg-color);
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.22);
 
     > div {
       min-width: 0;
@@ -227,12 +258,28 @@ html[data-theme="dark"] .workshop26 {
   --workshop-accent-soft: #233f43;
 }
 
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .workshop26 {
+    .workshop-hero,
+    .workshop-section,
+    .speaker-card {
+      background-color: #101a1d;
+    }
+  }
+}
+
 @media (max-width: 575px) {
   .workshop26 {
     .workshop-hero {
       margin-right: -0.5rem;
       margin-left: -0.5rem;
       padding: 2.5rem 1.25rem 2rem;
+    }
+
+    .workshop-section {
+      margin-right: -0.5rem;
+      margin-left: -0.5rem;
+      padding: 1.25rem;
     }
 
     .schedule-item {
