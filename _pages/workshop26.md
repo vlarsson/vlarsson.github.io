@@ -20,7 +20,7 @@ sitemap: false
     <ul class="workshop-facts" aria-label="Workshop details">
       <li><i class="fa-solid fa-calendar" aria-hidden="true"></i> Monday, September 7, 2026</li>
       <li><i class="fa-solid fa-clock" aria-hidden="true"></i> 15:00–17:15</li>
-      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> MH:Riesz, first floor, Centre for Mathematical Sciences, Lund University</li>
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> MH:Riesz, first floor, <a href="https://maps.app.goo.gl/ezvQbPxzg1Ke3FGQ8">Centre for Mathematical Sciences</a>, Lund University</li>
     </ul>
   </header>
 
@@ -108,8 +108,10 @@ sitemap: false
         <div>
           <h3 class="speaker-name"><a href="https://fadikhatib.github.io/">Fadi Khatib</a></h3>
           <p class="speaker-affiliation">Weizmann Institute of Science</p>
-          <p class="talk-tba">Talk title and abstract to be announced.</p>
-        </div>
+          <h4 class="talk-title">Learning and Geometry for Structure-from-Motion</h4>
+          <p class="talk-abstract">
+In this talk, I will present some of our recent work on learning-based methods for 3D reconstruction, with a focus on Structure-from-Motion and camera pose estimation. I will discuss how we use deep learning to address different estimation problems that arise throughout the reconstruction pipeline, from robust relative geometry to global camera recovery. A central question in this work is how to benefit from learned models without discarding the geometric structure that makes classical methods accurate and reliable. I will present several examples of this approach, including methods for robust estimation and large-scale pose averaging, and discuss what we have learned about the strengths and limitations of combining learning with multi-view geometry.
+          </p>        </div>
       </article>
 
       <article class="speaker-card">
